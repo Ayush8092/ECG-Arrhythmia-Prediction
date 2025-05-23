@@ -20,7 +20,6 @@ The model is trained on four normal ECG databases:
 
 ## Library Prerequisites
 
-- Python 3.6+
 - TensorFlow 2.x / Keras
 - Scikit-learn
 - Pandas
