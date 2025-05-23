@@ -45,7 +45,16 @@ The model uses data from four standard ECG databases:
 | Random state       | 42 (for reproducibility)       |
 
 ### Results
-**Sample output metrics:**
-```python
-Test accuracy: 0.9518
+
 Accuracy of the model is: 0.95184
+
+## Algorithm Comparison
+
+| Algorithm                 | Accuracy  |
+|---------------------------|-----------|
+| Logistic Regression       | 0.9512    |
+| FNN (Feedforward Neural Network) | 0.9825    |
+| CNN (Convolutional Neural Network) | 0.98319   |
+| XGBoost                  | 0.9828    |
+| LightGBM                 | 0.97499   |
+
